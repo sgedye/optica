@@ -98,12 +98,6 @@ nav.sticky {
 #productos {
   background: url("../img/gafas_bg.jpg") fixed center no-repeat; }
 
-.show {
-  display: block; }
-
-.hide {
-  display: none; }
-
 /* selector buttons */
 .filter-btn {
   color: var(--mainDarkBlue) !important;
@@ -121,6 +115,12 @@ nav.sticky {
   box-shadow: none !important;
   transform: translate(2px, 2px); }
 
+.show {
+  display: block; }
+
+.hide {
+  display: none; }
+
 /* store items */
 .img-container {
   position: relative;
@@ -133,21 +133,17 @@ nav.sticky {
   transform: scale(1.1); }
 
 /*** CORPORATIVO ***/
-.corp-name {
-  text-align: center; }
-
 .card-body.corp-card-body {
   padding: 5px; }
 
-/* Footer */
+/*** CONTACT US ***/
+#contactanos {
+  height: 800px; }
+
+/*** FOOTER ***/
 #footer-img {
-  margin: 0;
-  padding: 0;
   width: 100vw;
   height: auto; }
-
-#footer {
-  background: var(--mainDarkBlue); }
 
 #footer > div {
   padding: 5%; }
@@ -155,6 +151,7 @@ nav.sticky {
 #copywrite {
   margin: auto;
   align-items: center;
+  background: var(--mainDarkBlue);
   padding-bottom: 2%; }
 
 #copywrite > p {

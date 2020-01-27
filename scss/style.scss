@@ -78,6 +78,7 @@ nav.sticky {
   height: auto;
 }
 
+
 /*** NOSOTROS ***/
 #about-articles {
   display: flex;
@@ -99,17 +100,11 @@ nav.sticky {
   h2, p, li { color: var(--mainWhite); }
 }
 
+
 /*** PRODUCTOS ***/
 #productos {
   background: url("../img/gafas_bg.jpg") fixed center no-repeat;
 }
-.show {
-  display: block;
-}
-.hide {
-  display: none;
-}
-
 
 /* selector buttons */
 .filter-btn {
@@ -128,6 +123,8 @@ nav.sticky {
   box-shadow: none !important;
   transform: translate(2px, 2px);
 }
+.show { display: block; }
+.hide { display: none; }
 
 /* store items */
 .img-container {
@@ -141,23 +138,21 @@ nav.sticky {
   transform: scale(1.1);
 }
 
+
 /*** CORPORATIVO ***/
-.corp-name { text-align: center; }
 .card-body.corp-card-body { padding: 5px; }
 
 
-
-/* Footer */
-
-#footer-img {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: auto;
+/*** CONTACT US ***/
+#contactanos {
+  height: 800px;
 }
 
-#footer {
-  background: var(--mainDarkBlue);
+
+/*** FOOTER ***/
+#footer-img {
+  width: 100vw;
+  height: auto;
 }
 #footer > div { 
   padding: 5%;
@@ -165,6 +160,7 @@ nav.sticky {
 #copywrite { 
   margin: auto;
   align-items: center;
+  background: var(--mainDarkBlue);
   padding-bottom: 2%;
 }
 #copywrite > p {
