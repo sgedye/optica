@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+<!-- Not working the icon for the page.
+  <link rel="shortcut icon" href="imgs/icoptica.ico">
+  <link rel="icon" type="image/ico" href="./imgs/icoptica.ico" sizes="16x16 32x32">
+-->
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css"> <!-- font awesome -->
+  <link rel="stylesheet" href="css/style.css"> <!-- main css -->
+  <title>Optica Medica Buga</title>
+</head>
+
+<!---------- TODOS ------------>
+<!--
+      HEADING:
+        • A bigger header image ?? (Ideally a seperate one for desktop and mobile)
+      ABOUT:
+        • Make the text hidden/show on mobile click (default hide)
+      PRODUCTS: -- DONE.
+      CORPORATIVO: -- DONE.
+      CONTACT:
+        • Transfer their PHP webpage
+      FOOTER: -- DONE.
+      OTHER:
+        • ¡¡¡ ADD "OUR SERVICES" !!!
+
+-->
+
+
+<body>
+  <header>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg px-4 sticky ">
+      <a href="#" style="margin: auto;"><img src="img/icoptica.ico" alt="Optica Medica Logo"></a>
+      <div class="collapse navbar-collapse" id="myNav">
+        <ul class="navbar-nav mx-auto text-capitalize">
+          <!--<li class="nav-item"><a class="nav-link" href="#">INICIO</a></li>-->
+          <li class="nav-item"><a class="nav-link" href="#nosotros">NOSOTROS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#productos">PRODUCTOS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#corporativo">CORPORATIVO</a>
+          <li class="nav-item"><a class="nav-link" href="#contactanos">CONTÁCTANOS</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- banner  -->
+    <div class="dark-blue">
+      <img id="cabezote" src="./img/cabezote.jpg" />
+    </div>
+    <!--end of banner  -->
+  </header>
+  <!-- about us -->
+  <section id="nosotros" class="py-5">
+    <div class="container">
+      <h1 class="text-capitalize">nosotros</h1>
+      <div id="about-articles" class="row">
+        <article class="col-10 col-sm-11 col-lg-5">
+          <h2>Misión:</h2>
+          <p class="my-4">
+            Promover de buena salud visual a nuestros pacientes,promocionar la higiene visual y la prevención de los problemas visuales entre los habitantes con más alto riesgo como son los niños.
+            Proporcionar al cliente confort visual para hacerle la vida más agradable, garantizándole un nivel óptimo de profesionalismo, excelencia en la calidad de los servicios y productos, transparencia en nuestras acciones; brindando accesibilidad y oportunidad al servicio.
+            Estaremos a la vanguardia en tecnología y moda, ya que nuestros clientes deben “ver y verse bien“, es el compromiso de OPTICA MEDICA. Cumplimos nuestra misión en la medida que obtenemos la satisfacción total de nuestros clientes.
+          </p>
+        </article>
+        <article class="col-10 col-sm-5 col-lg-3">
+          <h2>Visión:</h2>
+          <p class="my-4">
+            Ser reconocidos como la mejor óptica de la ciudad y mantener una posición de amplio liderazgo en el campo de la visión a través de un excelente servicio logrando de esta manera clientes leales a la empresa y sus productos; operando con alta rentabilidad y productividad.
+          </p>
+        </article>
+        <article class="col-10 col-sm-5 col-lg-3">
+          <h2>Nuestros Valores y Actitutes:</h2>
+          <ul class="my-4">
+            <li>Honestidad y Ética</li>
+            <li>Liderazgo</li>
+            <li>Espíritu de Servicio</li>
+            <li>Calidad de Servicio</li>
+            <li>Respeto y Cordialidad</li>
+            <li>Amplia Comunicación</li>
+            <li>Pronta Respuesta al Usuario</li>
+            <li>Amplio Conocimiento de Nuestros Clientes</li>
+            <li>Innovación</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- end of about us -->
+  <!-- store -->
+
+
+              <!-- ADD SERVICES TO PRODUCTS ?? -->
+              <!-- is it possible to get pics for each service -->
+
+
+
+  <section id="productos" class="py-5">
+    <div class="container">
+      <h1 class="text-capitalize d-none d-md-block">nuestros Productos</h1>
+      <h1 class="text-capitalize d-sm-block d-md-none">Productos</h1>
+      <!-- filter buttons -->
+      <div class="row">
+        <div id="btn-filters" class="col-lg-6 mx-auto d-flex justify-content-around my-2 flex-wrap">
+          <a class="btn text-uppercase filter-btn m-2 active" data-filter="all"> all</a>
+          <a class="btn text-uppercase filter-btn m-2" data-filter="lentes">lentes</a>
+          <a class="btn text-uppercase filter-btn m-2" data-filter="limpiadores">limpiadores</a>
+          <a class="btn text-uppercase filter-btn m-2" data-filter="???">???</a>
+          <a class="btn text-uppercase filter-btn m-2" data-filter="???">???</a>
+        </div>
+      </div>
+      <!-- end of filter buttons -->
+      <!-- store items -->
+      <div id="store-items" class="row store-items" >
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item" data-item="lentes">
+          <div id="001" class="card">
+            <div class="img-container">
+              <img src="./img/gafas-rosadas.jpg" class="card-img-top store-img" alt="imagen de gafas rosadas" />
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Lentes Rosas</h5>
+                <!--<h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">5</strong></h5>-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item" data-item="limpiadores">
+          <div id="002" class="card ">
+            <div class="img-container">
+              <img src="./img/solution-oxi.jpg" class="card-img-top store-img" alt="imagen de solución-oxi">
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Multi Solución Oxi</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item" data-item="lentes">
+          <div id="003" class="card ">
+            <div class="img-container">
+              <img src="./img/gafas-nino.jpeg" class="card-img-top store-img" alt="imagen de gafas para los niños">
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Lentes para los niños</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item" data-item="limpiadores">
+          <div id="004" class="card ">
+            <div class="img-container">
+              <img src="./img/hydrosol.jpg" class="card-img-top store-img" alt="imagen de hydrosol">
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Hydrosol Multiproposito</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item" data-item="lentes">
+          <div id="005" class="card ">
+            <div class="img-container">
+              <img src="./img/gafas-evatik.jpeg" class="card-img-top store-img" alt="imagen de lentes Evatik">
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Lentes Evatik</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item" data-item="limpiadores">
+          <div id="006" class="card ">
+            <div class="img-container">
+              <img src="./img/humecsol.jpg" class="card-img-top store-img" alt="imagen de humecsol">
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Humecsol Multiproposito</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item" data-item="limpiadores">
+          <div id="007" class="card ">
+            <div class="img-container">
+              <img src="./img/reflect-free.jpg" class="card-img-top store-img" alt="imagen de reflect limpiador">
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Reflect Free</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item" data-item="lentes">
+          <div id="008" class="card ">
+            <div class="img-container">
+              <img src="./img/gafas-optimun.png" class="card-img-top store-img" alt="imagen de lentes Optimun">
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Lentes Optimun</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+      </div>
+      <!-- end of store items -->
+    </div>
+  </section>
+  <!-- end of store section -->
+  <!-- corporativo -->
+  <section id="corporativo" class="py-5">
+    <div class="container">
+      <h1 class="text-capitalize">corporativo</h1>
+      <div class="row" class="corp-items">
+        <!-- single item -->
+        <div class="col-6 col-sm-4 col-lg-4 mx-auto my-3">
+          <div class="card">
+            <a href="./corporativos/2016-17.pdf" target="_blank">
+              <div class="img-container">
+                <img src="./img/balance1.jpg" class="card-img-top" alt="imagen de documento" />
+              </div>
+              <div class="card-body corp-card-body">
+                <div class="card-text">
+                  <h5 class="corp-name">2016 - 2017</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-6 col-sm-4 col-lg-4 mx-auto my-3">
+          <div class="card">
+            <a href="./corporativos/2015-16.pdf" target="_blank">
+              <div class="img-container">
+                <img src="./img/balance1.jpg" class="card-img-top" alt="imagen de documento" />
+              </div>
+              <div class="card-body corp-card-body">
+                <div class="card-text">
+                  <h5 class="corp-name">2015 - 2016</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-6 col-sm-4 col-lg-4 mx-auto my-3">
+          <div class="card">
+            <a href="./corporativos/2013-14.pdf" target="_blank">
+              <div class="img-container">
+                <img src="./img/balance1.jpg" class="card-img-top" alt="imagen de documento" />
+              </div>
+              <div class="card-body corp-card-body">
+                <div class="card-text">
+                  <h5 class="corp-name">2013 - 2014</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-6 col-sm-4 col-lg-4 mx-auto my-3">
+          <div class="card">
+            <a href="./corporativos/2012-13.pdf" target="_blank">
+              <div class="img-container">
+                <img src="./img/balance1.jpg" class="card-img-top" alt="imagen de documento" />
+              </div>
+              <div class="card-body corp-card-body">
+                <div class="card-text">
+                  <h5 class="corp-name">2012 - 2013</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-6 col-sm-4 col-lg-4 mx-auto my-3">
+          <div class="card">
+            <a href="./corporativos/2011-12.pdf" target="_blank">
+              <div class="img-container">
+                <img src="./img/balance1.jpg" class="card-img-top" alt="imagen de documento" />
+              </div>
+              <div class="card-body corp-card-body">
+                <div class="card-text">
+                  <h5 class="corp-name">2011 - 2012</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class="col-6 col-sm-4 col-lg-4 mx-auto my-3">
+          <div class="card">
+            <a href="./corporativos/2010-11.pdf" target="_blank">
+              <div class="img-container">
+                <img src="./img/balance1.jpg" class="card-img-top" alt="imagen de documento" />
+              </div>
+              <div class="card-body corp-card-body">
+                <div class="card-text">
+                  <h5 class="corp-name">2010 - 2011</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end of single item -->
+      </div>
+    </div>
+  </section>
+  <!-- end of corporativo -->
+  <!-- contact us -->
+  <section id="contactanos" class="store py-5">
+    <div class="container">
+    <h1 class="text-capitalize">contact us</h1>
+    <!--
+    <div class="row">
+      <div class="col-10 mx-auto col-md-6 my-5">
+        <h1 class="text-capitalize">contact <strong class="banner-title ">us</strong></h1>
+      </div>
+    </div>
+    -->
+  </section>
+  <!-- end of contact us -->
+  <!-- footer -->
+  <footer id="footer">
+    <img id="footer-img" src="./img/pie.jpg" />
+    <div id="copywrite">
+      <p class="d-none d-md-block">© Óptica Médica Buga  -  Todos los Derechos Reservados</p>
+      <p class="d-sm-block d-md-none">© Óptica Médica Buga</p>
+      <p class="d-none d-md-block">Guadalajara de Buga, Calle 7 No. 12-69  -  Tel.: 228 2919</p>
+      <p class="d-sm-block d-md-none">Buga, Calle 7 No. 12-69  -  Tel.: 228 2919</p>
+      <p>Visítanos, será un gusto atenderte!</p>
+    </div>
+  </footer>
+  <!-- end of footer -->
+
+  <!-- scripts -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+  <!-- end of scripts -->
+</body>
+</html>

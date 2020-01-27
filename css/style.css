@@ -1,0 +1,181 @@
+/****************************************/
+/* This file was written by John Smilga */
+/* Updated by Shaun Gedye from line 12  */
+/****************************************/
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+body {
+  font-family: "Kaushan Script", cursive; }
+
+/********************************/
+/* Style Written By Shaun Gedye */
+/********************************/
+:root {
+  --mainWhite: #fff;
+  --mainBlack: #000;
+  --mainDarkBlue: #002f5d; }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+section > .container {
+  padding-top: 50px; }
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: var(--mainDarkBlue);
+  margin-bottom: 20px; }
+
+a {
+  text-decoration: none;
+  color: var(--mainDarkBlue); }
+
+a:hover {
+  text-decoration: none; }
+
+/* Nav */
+nav.sticky {
+  position: fixed;
+  background-color: var(--mainDarkBlue);
+  height: 78px;
+  top: 0px;
+  padding: 20px;
+  width: 100vw;
+  opacity: 0.95;
+  z-index: 99; }
+
+#myNav > .navbar-nav {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%; }
+
+.nav-link {
+  color: var(--mainWhite);
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in-out; }
+
+.nav-link:hover {
+  color: var(--mainWhite);
+  transform: scale(1.2); }
+
+@media (max-width: 1024px) {
+  .navbar-brand {
+    margin: auto; } }
+
+/* Banner */
+.dark-blue {
+  background-color: var(--mainDarkBlue); }
+
+#cabezote {
+  margin: 0;
+  padding: 78px 0 0 0;
+  width: 100vw;
+  height: auto; }
+
+/*  @-moz-document- @-moz-document- @-moz-document- USE THIS FOR ABOUT SHOW/HIDE TEXT  ****/
+#cart-info > p {
+  display: none; }
+
+@media (min-width: 768px) {
+  #cart-info > p {
+    display: block; } }
+
+/*  @-moz-document- @-moz-document- @-moz-document- USE THIS FOR ABOUT SHOW/HIDE TEXT  ****/
+/*** NOSOTROS ***/
+#about-articles {
+  display: flex;
+  justify-content: space-around; }
+
+#about-articles > article {
+  border: 3px solid var(--mainDarkBlue);
+  border-collapse: collapse;
+  padding: 10px 20px;
+  margin-bottom: 20px; }
+
+#about-articles h2 {
+  text-align: center;
+  color: var(--mainDarkBlue); }
+
+#about-articles p, li {
+  font-family: arial; }
+
+#about-articles article:hover {
+  background-color: var(--mainDarkBlue);
+  cursor: default; }
+  #about-articles article:hover h2, #about-articles article:hover p, #about-articles article:hover li {
+    color: var(--mainWhite); }
+
+/*** PRODUCTOS ***/
+#productos {
+  background: url("../img/gafas_bg.jpg") fixed center no-repeat; }
+
+.show {
+  display: block; }
+
+.hide {
+  display: none; }
+
+/* selector buttons */
+.filter-btn {
+  color: var(--mainDarkBlue) !important;
+  border: 2px solid var(--mainDarkBlue) !important;
+  box-shadow: 2px 2px 2px var(--mainBlack); }
+
+.filter-btn:hover {
+  color: var(--mainWhite) !important;
+  background: var(--mainDarkBlue) !important; }
+
+.filter-btn.active {
+  background: var(--mainDarkBlue);
+  color: var(--mainWhite) !important;
+  box-shadow: none !important;
+  transform: translate(2px, 2px); }
+
+/* store items */
+.img-container {
+  position: relative;
+  overflow: hidden; }
+
+.store-img {
+  transition: all 0.8s ease-in-out; }
+
+.img-container:hover .store-img {
+  transform: scale(1.1); }
+
+/*** CORPORATIVO ***/
+.corp-name {
+  text-align: center; }
+
+.card-body.corp-card-body {
+  padding: 5px; }
+
+/* Footer */
+#footer-img {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: auto; }
+
+#footer {
+  background: var(--mainDarkBlue); }
+
+#footer > div {
+  padding: 5%; }
+
+#copywrite {
+  margin: auto;
+  align-items: center;
+  padding-bottom: 2%; }
+
+#copywrite > p {
+  text-align: center;
+  font-size: 1.0em;
+  color: var(--mainWhite); }
+
+@media (min-width: 768px) {
+  #copywrite {
+    padding-bottom: 0; }
+    #copywrite p {
+      font-size: 2.0em; } }
