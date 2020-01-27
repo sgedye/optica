@@ -1,14 +1,7 @@
-/****************************************/
-/* This file was written by John Smilga */
-/* Updated by Shaun Gedye from line 12  */
-/****************************************/
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
-body {
-  font-family: "Kaushan Script", cursive; }
-
 /********************************/
 /* Style Written By Shaun Gedye */
 /********************************/
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 :root {
   --mainWhite: #fff;
   --mainBlack: #000;
@@ -18,6 +11,12 @@ body {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
+
+html {
+  font-family: "Roboto", Arial, Verdana, sans-serif; }
+
+.nav-link, h1, h2, #copywrite > p {
+  font-family: "Kaushan Script", cursive; }
 
 section > .container {
   padding-top: 50px; }
@@ -74,15 +73,6 @@ nav.sticky {
   width: 100vw;
   height: auto; }
 
-/*  @-moz-document- @-moz-document- @-moz-document- USE THIS FOR ABOUT SHOW/HIDE TEXT  ****/
-#cart-info > p {
-  display: none; }
-
-@media (min-width: 768px) {
-  #cart-info > p {
-    display: block; } }
-
-/*  @-moz-document- @-moz-document- @-moz-document- USE THIS FOR ABOUT SHOW/HIDE TEXT  ****/
 /*** NOSOTROS ***/
 #about-articles {
   display: flex;
@@ -97,9 +87,6 @@ nav.sticky {
 #about-articles h2 {
   text-align: center;
   color: var(--mainDarkBlue); }
-
-#about-articles p, li {
-  font-family: arial; }
 
 #about-articles article:hover {
   background-color: var(--mainDarkBlue);
@@ -121,7 +108,8 @@ nav.sticky {
 .filter-btn {
   color: var(--mainDarkBlue) !important;
   border: 2px solid var(--mainDarkBlue) !important;
-  box-shadow: 2px 2px 2px var(--mainBlack); }
+  box-shadow: 2px 2px 2px var(--mainBlack);
+  font-weight: bold; }
 
 .filter-btn:hover {
   color: var(--mainWhite) !important;
