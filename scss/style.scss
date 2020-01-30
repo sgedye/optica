@@ -31,6 +31,9 @@ h1 {
   color: var(--mainDarkBlue);
   margin-bottom: 20px;
 }
+@media (max-width: 425px) {
+  h2 { font-size: 1.5em; }
+}
 a {
   text-decoration: none;
   color: var(--mainDarkBlue);
@@ -123,6 +126,33 @@ nav.sticky {
   box-shadow: none !important;
   transform: translate(2px, 2px);
 }
+
+/***** Not being used.
+@-webkit-keyframes rotateOutY {
+  from { -webkit-transform: rotateY(0deg); }
+  to { -webkit-transform: rotateY(90deg); }
+}
+@keyframes rotateOutY {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(90deg) }
+}
+.rotateOutY {
+  -webkit-animation-name: rotateOutY;
+  animation-name: rotateOutY;  
+}
+@-webkit-keyframes rotateInY {
+  from { -webkit-transform: rotateY(90deg); }
+  to { -webkit-transform: rotateY(0deg); }
+}
+@keyframes rotateInY {
+  from { transform: rotateY(90deg) }
+  to { transform: rotateY(0deg) }
+}
+.rotateInY {
+  -webkit-animation-name: rotateInY;
+  animation-name: rotateInY;  
+}*/
+
 .show { display: block; }
 .hide { display: none; }
 
@@ -140,7 +170,10 @@ nav.sticky {
 
 
 /*** CORPORATIVO ***/
-.card-body.corp-card-body { padding: 5px; }
+.corp-card-body { 
+  padding: 5px;
+  .corp-name { text-align: center; }
+}
 
 
 /*** CONTACT US ***/
