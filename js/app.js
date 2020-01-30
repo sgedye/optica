@@ -12,29 +12,33 @@ function toggleText(content) {
   }
 }
 function activeButton(btnPressed) {
-  this.buttons = document.getElementById('btn-filters');
-  for (let i=0; i<this.buttons.childElementCount; i++) {
-    this.buttons.children[i].classList.remove('active');
+  const buttons = document.getElementById('btn-filters');
+  for (let i=0; i<buttons.childElementCount; i++) {
+    buttons.children[i].classList.remove('active');
   }
   btnPressed.classList.add('active');
 }
 function filterStore(selection) {
-  this.store = document.getElementById('store-items');
+  const items = document.querySelectorAll('.store-item');
+  items.forEach(item => {
+    item.classList.add('animated')
+    setTimeout(() => { item.classList.add('zoomOut') }, 0)
+    setTimeout(() => {
+      item.classList.replace('zoomOut', 'zoomIn')
+    }, 500)
+  });
   if (selection === "all") {
-    for (let i = 0; i<this.store.childElementCount; i++) {
-      this.store.children[i].classList.remove('hide');
-      this.store.children[i].classList.add('show');
-    }
+    items.forEach(item => {
+      setTimeout(() => { item.classList.remove('hide') }, 500)
+    })
   } else {
-    for (let i = 0; i<this.store.childElementCount; i++) {
-      if (this.store.children[i].dataset.item === selection) {
-        this.store.children[i].classList.remove('hide');
-        this.store.children[i].classList.add('show');
+    items.forEach(item => {
+      if (item.dataset.item === selection) {
+        setTimeout(() => { item.classList.remove('hide') }, 500)
       } else {
-        this.store.children[i].classList.remove('show');
-        this.store.children[i].classList.add('hide'); 
+        setTimeout(() => { item.classList.add('hide') }, 500)
       }
-    }
+    })
   }
 }
 /* Event Listeners */
