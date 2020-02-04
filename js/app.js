@@ -13,19 +13,36 @@ function toggleText(content) {
 }
 function activeButton(btnPressed) {
   const buttons = document.getElementById('btn-filters');
+  /*btnPressed.classList.contains('active') ? pulseStore(btnPressed.dataset.filter) : filterStore(btnPressed.dataset.filter);*/
   for (let i=0; i<buttons.childElementCount; i++) {
     buttons.children[i].classList.remove('active');
   }
   btnPressed.classList.add('active');
 }
+/* THIS IS NOT WORKING --- USE REACT AND TRACK THE STATE OF THE STORE ---
+
+function pulseStore(selection) {
+  const items = document.querySelectorAll('.store-item');
+  if (selection === "all") {
+    items.forEach(item => {
+      setTimeout(() => { item.classList.add('animated', 'pulse') }, 500)
+      setTimeout(() => { item.classList.remove('animated', 'pulse') }, 1000)
+    })
+  } else {
+    items.forEach(item => {
+      if (item.dataset.item === selection) {
+        setTimeout(() => { item.classList.add('animated', 'pulse') }, 500)
+        setTimeout(() => { item.classList.remove('animated', 'pulse') }, 1000)
+      }
+    })
+  }  
+}*/
 function filterStore(selection) {
   const items = document.querySelectorAll('.store-item');
   items.forEach(item => {
     item.classList.add('animated')
     setTimeout(() => { item.classList.add('zoomOut') }, 0)
-    setTimeout(() => {
-      item.classList.replace('zoomOut', 'zoomIn')
-    }, 500)
+    setTimeout(() => { item.classList.replace('zoomOut', 'zoomIn') }, 500)
   });
   if (selection === "all") {
     items.forEach(item => {
@@ -61,7 +78,7 @@ function eventListeners() {
   filterBtn.forEach(btn => {
     btn.addEventListener('click', (event) => {
       activeButton(event.target);
-      filterStore(event.target.dataset.filter);
+      filterStore(event.target.dataset.filter)
     });
   });
 }

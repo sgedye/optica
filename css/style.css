@@ -19,17 +19,22 @@ html {
   font-family: "Kaushan Script", cursive; }
 
 section > .container {
-  padding-top: 50px; }
+  padding-top: 100px; }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
   color: var(--mainDarkBlue);
   margin-bottom: 20px; }
 
-@media (max-width: 425px) {
+h2 {
+  font-size: 1.5em; }
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 3em; }
   h2 {
-    font-size: 1.5em; } }
+    font-size: 2em; } }
 
 a {
   text-decoration: none;
@@ -106,7 +111,7 @@ nav.sticky {
 .filter-btn {
   color: var(--mainDarkBlue) !important;
   border: 2px solid var(--mainDarkBlue) !important;
-  box-shadow: 2px 2px 2px var(--mainBlack);
+  box-shadow: 2px 2px 3px var(--mainBlack);
   font-weight: bold; }
 
 .filter-btn:hover {
