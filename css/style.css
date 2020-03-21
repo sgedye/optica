@@ -180,8 +180,15 @@ nav.sticky {
   -webkit-transform: scale(1.1); }
 
 /*** CONTACT US ***/
-#contactanos {
-  height: 800px; }
+#contactanos article {
+  background: red;
+  padding: 20px; }
+
+.contact_form {
+  display: block;
+  border: 2px solid black; }
+  .contact_form h2, .contact_form label, .contact_form input, .contact_form textarea, .contact_form button {
+    display: block; }
 
 /*** FOOTER ***/
 #footer-img {
