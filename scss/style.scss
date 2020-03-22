@@ -18,6 +18,7 @@
 
 html {
   font-family: "Roboto", Arial, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 .nav-link, h1, h2, #copywrite > p {
   font-family: "Kaushan Script", cursive;
@@ -186,24 +187,84 @@ nav.sticky {
 
 
 /*** CONTACT US ***/
-
-
 #contactanos article {
-  background: red;
   padding: 20px;
+  img { margin: 0 auto; }
+}
+#contactanos #edificio {
+  display: none;
 }
 
 .contact_form {
-  display: block;
-  border: 2px solid black;
-  
-  
-  h2, label, input, textarea, button {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 5;
+  background-color: #ccc;
+  color: var(--mainDarkBlue);
+  border-radius: 10px 0 10px 0;
+  padding: 0.8rem 0;
+  #title, #name, #myName, #email, #myEmail, #message, #myMessage, #submit {
+    display: block;
+    width: 90%;
+    margin: auto;
+    grid-column: span 2;
+    margin-bottom: 0.5rem;
+  }
+  #title {
+    font-size: 1.65em;
+    padding: 0.8rem 0;
+    text-align: center;
+  }
+  #name, #email, #message {
+    font-size: 1.2em;
+    margin: 0 auto !important;
+  }
+  #submit {
+    background-color: var(--mainWhite);
+    color: var(--mainDarkBlue);
+    border: 2px solid var(--mainDarkBlue);
+    font-weight: bold;
+    grid-column: span 2;
+    padding: 3px 2px;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+    transition: all 350ms linear;
+    &:hover, &:focus {
+      cursor: pointer;
+      background-color: var(--mainDarkBlue);
+      color: var(--mainWhite);
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  #contactanos #article {
+    #edificio { display: block !important; }
+  }
+  .contact_form {
+    margin: auto;
+    #name, #myName, #email, #myEmail, #message, #myMessage {
+      display: inline-block;
+      grid-column: span 1;
+    }
+    #name, #email {
+      text-align: right;
+      margin-bottom: 0.8rem;
+    }
+    #message {
+      text-align: right;
+      margin-top: 0;
+    }
+    #submit {
+      grid-column: 2/3;
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  #contactanos #edificio {
     display: block;
   }
 }
-
-
 
 
 /*** FOOTER ***/
