@@ -24,13 +24,15 @@ html {
   font-family: "Kaushan Script", cursive;
 }
 
+header { height: 100vh; }
+
 section > .container { padding-top: 100px; }
 
 h1 {
   font-size: 2.5em;
   text-align: center;
   color: var(--mainDarkBlue);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 h2 { font-size: 1.5em; }
 @media (min-width: 600px) {
@@ -169,6 +171,47 @@ nav.sticky {
 }
 .img-container:hover .store-img {
   transform: scale(1.1);
+}
+
+
+/*** NUESTRO SERVICIOS ***/
+.service-article {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  ul {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: stretch;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    li {
+      list-style: none;
+      padding: 0 0 10px 0;
+      font-weight: bold;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .service-article {
+    ul {
+      text-align: left;
+      li {
+        padding: 10px 0;
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .service-article {
+    ul {
+      text-align: center;
+      li { padding: 15px 0; }
+    }
+  }
 }
 
 
