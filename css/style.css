@@ -19,9 +19,6 @@ html {
 .nav-link, h1, h2, #copywrite > p {
   font-family: "Kaushan Script", cursive; }
 
-header {
-  height: 100vh; }
-
 section > .container {
   padding-top: 100px; }
 
@@ -87,6 +84,9 @@ nav.sticky {
   height: auto; }
 
 /*** NOSOTROS ***/
+#nosotros {
+  min-height: 100vh; }
+
 #about-articles {
   display: flex;
   justify-content: space-around; }

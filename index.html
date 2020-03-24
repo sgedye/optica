@@ -30,27 +30,28 @@
 -->
 
 <body>
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg px-4 sticky ">
+    <a href="#" style="margin: auto;"><img src="img/icoptica.ico" alt="Optica Medica Logo"></a>
+    <div class="collapse navbar-collapse" id="myNav">
+      <ul class="navbar-nav mx-auto text-capitalize">
+        <li class="nav-item"><a class="nav-link" href="#nosotros">NOSOTROS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#productos">PRODUCTOS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios">SERVICIOS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#corporativo">CORPORATIVO</a>
+        <li class="nav-item"><a class="nav-link" href="#contactanos">CONTÁCTANOS</a></li>
+    </div>
+  </nav>
+  <!-- end of nav -->
+
+  <!-- header -->
   <header>
-    <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg px-4 sticky ">
-      <a href="#" style="margin: auto;"><img src="img/icoptica.ico" alt="Optica Medica Logo"></a>
-      <div class="collapse navbar-collapse" id="myNav">
-        <ul class="navbar-nav mx-auto text-capitalize">
-          <!--<li class="nav-item"><a class="nav-link" href="#">INICIO</a></li>-->
-          <li class="nav-item"><a class="nav-link" href="#nosotros">NOSOTROS</a></li>
-          <li class="nav-item"><a class="nav-link" href="#productos">PRODUCTOS</a></li>
-          <li class="nav-item"><a class="nav-link" href="#servicios">SERVICIOS</a></li>
-          <li class="nav-item"><a class="nav-link" href="#corporativo">CORPORATIVO</a>
-          <li class="nav-item"><a class="nav-link" href="#contactanos">CONTÁCTANOS</a></li>
-      </div>
-    </nav>
-    <!-- end of nav -->
-    <!-- banner  -->
-    <div class="dark-blue">
+    <div class="dark-blue d-none d-md-block">
       <img id="cabezote" src="./img/cabezote.jpg" />
     </div>
-    <!--end of banner  -->
   </header>
+  <!-- end of header -->
+
   <!-- about us -->
   <section id="nosotros" class="py-5">
     <div class="container">
@@ -107,21 +108,15 @@
     </div>
   </section>
   <!-- end of about us -->
-  <!-- store -->
 
-
-              <!-- ADD SERVICES TO PRODUCTS ?? -->
-              <!-- is it possible to get pics for each service -->
-
-
-
+  <!-- products -->
   <section id="productos" class="py-5">
     <div class="container">
       <h1 class="text-capitalize d-none d-md-block">nuestros Productos</h1>
       <h1 class="text-capitalize d-sm-block d-md-none">Productos</h1>
       <!-- filter buttons -->
-      <div class="row">
-        <div id="btn-filters" class="col-lg-6 mx-auto d-flex justify-content-around my-2 flex-wrap">
+      <div class="row d-none d-md-block">
+        <div id="btn-filters" class="col-md-10 col-lg-8 mx-auto d-flex justify-content-around my-2 flex-wrap">
           <a class="btn text-uppercase filter-btn m-2 active" data-filter="all"> all</a>
           <a class="btn text-uppercase filter-btn m-2" data-filter="lentes">lentes</a>
           <a class="btn text-uppercase filter-btn m-2" data-filter="limpiadores">limpiadores</a>
@@ -358,7 +353,7 @@
       <!-- end of store items -->
     </div>
   </section>
-  <!-- end of store section -->
+  <!-- end of products -->
 
   <!-- servicios -->
   <section id="servicios" class="py-5">
@@ -384,6 +379,7 @@
       </div>
     </div>
   </section>
+  <!-- end of servicios -->
 
   <!-- corporativo -->
   <section id="corporativo" class="py-5">
@@ -478,6 +474,7 @@
     </div>
   </section>
   <!-- end of corporativo -->
+
   <!-- contact us -->
   <section id="contactanos" class="py-5">
     <div class="container">
@@ -503,6 +500,7 @@
     </div>
   </section>
   <!-- end of contact us -->
+
   <!-- footer -->
   <footer id="footer">
     <img id="footer-img" src="./img/pie.png" />

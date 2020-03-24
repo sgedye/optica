@@ -24,8 +24,6 @@ html {
   font-family: "Kaushan Script", cursive;
 }
 
-header { height: 100vh; }
-
 section > .container { padding-top: 100px; }
 
 h1 {
@@ -88,6 +86,7 @@ nav.sticky {
 
 
 /*** NOSOTROS ***/
+#nosotros { min-height: 100vh; }
 #about-articles {
   display: flex;
   justify-content: space-around;
