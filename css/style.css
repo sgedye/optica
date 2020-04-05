@@ -50,7 +50,7 @@ nav.sticky {
   background-color: var(--mainDarkBlue);
   height: 78px;
   top: 0px;
-  padding: 20px;
+  padding: 20px 0;
   width: 100vw;
   opacity: 0.95;
   z-index: 99; }
