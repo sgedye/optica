@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  
 </head>
 
 <!---------- TODOS ------------>
@@ -29,26 +31,31 @@
         • ADD opening hours / Map location
 -->
 
-<body>
+<body id="body">
   <!-- navbar  -->
-  <nav class="navbar navbar-expand-lg px-4 sticky ">
-    <a href="#" style="margin: auto;"><img src="img/icoptica.ico" alt="Optica Medica Logo"></a>
-    <div class="collapse navbar-collapse" id="myNav">
-      <ul class="navbar-nav mx-auto text-capitalize">
-        <li class="nav-item"><a class="nav-link" href="#nosotros">NOSOTROS</a></li>
-        <li class="nav-item"><a class="nav-link" href="#productos">PRODUCTOS</a></li>
-        <li class="nav-item"><a class="nav-link" href="#servicios">SERVICIOS</a></li>
-        <li class="nav-item"><a class="nav-link" href="#corporativo">CORPORATIVO</a>
-        <li class="nav-item"><a class="nav-link" href="#contactanos">CONTÁCTANOS</a></li>
+  <nav class="navbar navbar-expand-lg sticky ">
+    <a id="optica-logo" href="#"><img src="img/icoptica.ico" alt="Optica Medica Logo"></a>
+    <ul id="nav-links" class="navbar-nav mx-auto text-capitalize">
+      <li class="nav-item link"><a class="nav-link" href="#nosotros">NOSOTROS</a></li>
+      <li class="nav-item link"><a class="nav-link" href="#productos">PRODUCTOS</a></li>
+      <li class="nav-item link"><a class="nav-link" href="#servicios">SERVICIOS</a></li>
+      <li class="nav-item link"><a class="nav-link" href="#corporativo">CORPORATIVO</a></li>
+      <li class="nav-item link"><a class="nav-link" href="#contactanos">CONTÁCTANOS</a></li>
+    </ul>
+    <div id="hamburger">
+      <div id="hb-top" class="line"></div>
+      <div id="hb-middle" class="line"></div>
+      <div id="hb-bottom" class="line"></div>
     </div>
   </nav>
   <!-- end of nav -->
 
   <!-- header -->
   <header>
-    <div class="dark-blue d-none d-md-block">
-      <!-- <img id="cabezote" src="./img/cabezote.png" /> -->
-      <img id="cabezote" src="./img/cabezote.jpg" />
+    <div class="dark-blue">
+      <img id="cabezote" class="d-none d-md-block" src="./img/cabezote.png" />
+      <img id="cabezote" class="d-block d-md-none" src="./img/cabezote-sml.png" style="max-height: 100vh;"/>
+      <!-- <img id="cabezote" src="./img/cabezote_first.jpg" /> -->
     </div>
   </header>
   <!-- end of header -->
@@ -520,6 +527,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/nav.js"></script>
   <!-- end of scripts -->
 </body>
 </html>
