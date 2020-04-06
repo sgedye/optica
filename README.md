@@ -3,11 +3,7 @@
 This has been tested on the following set up:
 
 ### Desktop:
-  • Mac | Chrome
-  • Mac | Firefox
-  • Mac | Safari
-  • Mac | Opera
+  • Mac | Chrome • Firefox • Safari • Opera
 
 ### Device:
-  • Samsung | Chrome
-  • Samsung | Opera
+  • Samsung | Chrome • Opera
