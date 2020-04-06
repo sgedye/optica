@@ -24,10 +24,14 @@ logo.addEventListener("click", () => {
   if (navLinks.classList.contains("open")) {
     navClicked()
   }
+  body.classList.remove("no-scroll")
 })
 
 hamburger.addEventListener("click", () => navClicked())
 
 for (const link of links) {
-  link.addEventListener("click", () => navClicked())
+  link.addEventListener("click", () => {
+    navClicked()
+    body.classList.remove("no-scroll")
+  })
 }
