@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  
 </head>
 
 <!---------- TODOS ------------>
@@ -26,34 +28,38 @@
         • Transfer their PHP webpage
       FOOTER: -- DONE.
       OTHER:
-        • ¡¡¡ ADD "OUR SERVICES" !!!
         • ADD opening hours / Map location
-
 -->
 
-
-<body>
-  <header>
-    <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg px-4 sticky ">
-      <a href="#" style="margin: auto;"><img src="img/icoptica.ico" alt="Optica Medica Logo"></a>
-      <div class="collapse navbar-collapse" id="myNav">
-        <ul class="navbar-nav mx-auto text-capitalize">
-          <!--<li class="nav-item"><a class="nav-link" href="#">INICIO</a></li>-->
-          <li class="nav-item"><a class="nav-link" href="#nosotros">NOSOTROS</a></li>
-          <li class="nav-item"><a class="nav-link" href="#productos">PRODUCTOS</a></li>
-          <li class="nav-item"><a class="nav-link" href="#corporativo">CORPORATIVO</a>
-          <li class="nav-item"><a class="nav-link" href="#contactanos">CONTÁCTANOS</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!-- end of nav -->
-    <!-- banner  -->
-    <div class="dark-blue">
-      <img id="cabezote" src="./img/cabezote.jpg" />
+<body id="body">
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg sticky ">
+    <a id="optica-logo" href="#"><img src="img/icoptica.ico" alt="Optica Medica Logo"></a>
+    <ul id="nav-links" class="navbar-nav mx-auto text-capitalize">
+      <li class="nav-item link"><a class="nav-link" href="#nosotros">NOSOTROS</a></li>
+      <li class="nav-item link"><a class="nav-link" href="#productos">PRODUCTOS</a></li>
+      <li class="nav-item link"><a class="nav-link" href="#servicios">SERVICIOS</a></li>
+      <li class="nav-item link"><a class="nav-link" href="#corporativo">CORPORATIVO</a></li>
+      <li class="nav-item link"><a class="nav-link" href="#contactanos">CONTÁCTANOS</a></li>
+    </ul>
+    <div id="hamburger">
+      <div id="hb-top" class="line"></div>
+      <div id="hb-middle" class="line"></div>
+      <div id="hb-bottom" class="line"></div>
     </div>
-    <!--end of banner  -->
+  </nav>
+  <!-- end of nav -->
+
+  <!-- header -->
+  <header>
+    <div class="dark-blue">
+      <img id="cabezote" class="d-none d-sm-block" src="./img/cabezote.png" />
+      <img id="cabezote" class="d-block d-sm-none" src="./img/cabezote-sml.png" style="max-height: 100vh;"/>
+      <!-- <img id="cabezote" src="./img/cabezote_first.jpg" /> -->
+    </div>
   </header>
+  <!-- end of header -->
+
   <!-- about us -->
   <section id="nosotros" class="py-5">
     <div class="container">
@@ -110,21 +116,15 @@
     </div>
   </section>
   <!-- end of about us -->
-  <!-- store -->
 
-
-              <!-- ADD SERVICES TO PRODUCTS ?? -->
-              <!-- is it possible to get pics for each service -->
-
-
-
+  <!-- products -->
   <section id="productos" class="py-5">
     <div class="container">
       <h1 class="text-capitalize d-none d-md-block">nuestros Productos</h1>
       <h1 class="text-capitalize d-sm-block d-md-none">Productos</h1>
       <!-- filter buttons -->
-      <div class="row">
-        <div id="btn-filters" class="col-lg-6 mx-auto d-flex justify-content-around my-2 flex-wrap">
+      <div class="row d-none d-md-block">
+        <div id="btn-filters" class="col-md-10 col-lg-8 mx-auto d-flex justify-content-around my-2 flex-wrap">
           <a class="btn text-uppercase filter-btn m-2 active" data-filter="all"> all</a>
           <a class="btn text-uppercase filter-btn m-2" data-filter="lentes">lentes</a>
           <a class="btn text-uppercase filter-btn m-2" data-filter="limpiadores">limpiadores</a>
@@ -361,7 +361,34 @@
       <!-- end of store items -->
     </div>
   </section>
-  <!-- end of store section -->
+  <!-- end of products -->
+
+  <!-- servicios -->
+  <section id="servicios" class="py-5">
+    <div class="container">
+      <h1 class="text-capitalize d-none d-md-block">nuestros Servicios</h1>
+      <h1 class="text-capitalize d-sm-block d-md-none">Servicios</h1>
+      <div class="row">
+        <article class="service-article col-4 d-none d-md-block">
+          <img src="./img/servicio-1.jpg" class="" alt="imagen de servicio número uno" />
+        </article>
+        <article class="service-article col-12 col-md-8 col-lg-4">
+          <ul>
+            <li>Consulta de Optometría</li>
+            <li>Adaptación de Lentes de Contacto</li>
+            <li>Adaptación de Lentes Oftálmicos</li>
+            <li>Monturas Nacionales y Extranjeras</li>
+            <li>Especialistas a tu Cuidado</li>
+          </ul>
+        </article>
+        <article class="service-article col-4 d-none d-lg-block">
+          <img src="./img/servicio-2.jpg" class="" alt="imagen de servicio número dos" />
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- end of servicios -->
+
   <!-- corporativo -->
   <section id="corporativo" class="py-5">
     <div class="container">
@@ -455,17 +482,19 @@
     </div>
   </section>
   <!-- end of corporativo -->
+
   <!-- contact us -->
   <section id="contactanos" class="py-5">
     <div class="container">
       <h1 class="text-capitalize">contáctanos</h1>
       <div id="contactanos-form" class="row">
         <article id="edificio" class="col-6 article">
-          <img src="img/edificio.jpeg" width="100%" height="auto" />
+          <img src="img/edificio.jpg" width="100%" height="auto" />
         </article>
         <article class="col-12 col-lg-6 article">
           <img id="contactanos" src="img/contactanos.png" width="100%" height="auto" />
-          <form class="contact_form" action="valida_contactanos.php" method="post">
+          <!-- <form class="contact_form" action="valida_contactanos.php" method="post"> -->
+          <form class="contact_form" action="" method="">
             <h2 id="title">Formulario de Contacto</h2>
             <label id="name" for="nombre">Nombre:</label>
             <input id="myName" type="text" name="nombre" placeholder="Nombre Completo" required />
@@ -480,6 +509,7 @@
     </div>
   </section>
   <!-- end of contact us -->
+
   <!-- footer -->
   <footer id="footer">
     <img id="footer-img" src="./img/pie.png" />
@@ -497,6 +527,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/nav.js"></script>
   <!-- end of scripts -->
 </body>
 </html>

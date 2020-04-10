@@ -7,7 +7,7 @@
 		"uuidString": "0BA0961C-0AD8-462C-A70D-E5FDC29813C0"
 		}
 	],
-"creatorBuild": "31934",
+"creatorBuild": "32001",
 "files": {
 	"/corporativos/2010-11.pdf": {
 		"cB": 0,
@@ -85,6 +85,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/nav-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/nav-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/nav.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/nav-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/style-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -116,12 +136,45 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/cabezote.jpg": {
+	"/img/cabezote-sml.png": {
+		"ft": 32768,
+		"iS": 97738,
+		"oA": 0,
+		"oAP": "/img/cabezote-sml.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cabezote.png": {
+		"ft": 32768,
+		"iS": 57438,
+		"oA": 0,
+		"oAP": "/img/cabezote.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cabezote1.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/img/cabezote1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cabezote_first.jpg": {
 		"ft": 16384,
 		"iS": 74167,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/cabezote.jpg",
+		"oAP": "/img/cabezote_first.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -157,12 +210,34 @@
 		"oAP": "/img/contactos-air.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/contactos-air.jpg": {
+		"ft": 16384,
+		"iS": 32943,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/contactos-air.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"/img/contactos-avaira.jpeg": {
 		"ft": 16384,
 		"iS": 41784,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/contactos-avaira.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/contactos-avaira.jpg": {
+		"ft": 16384,
+		"iS": 39634,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/contactos-avaira.jpg",
@@ -179,12 +254,34 @@
 		"oAP": "/img/contactos-biofinity.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/contactos-biofinity.jpg": {
+		"ft": 16384,
+		"iS": 31006,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/contactos-biofinity.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"/img/contactos-clean.jpeg": {
 		"ft": 16384,
 		"iS": 61692,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/contactos-clean.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/contactos-clean.jpg": {
+		"ft": 16384,
+		"iS": 55042,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/contactos-clean.jpg",
@@ -201,12 +298,34 @@
 		"oAP": "/img/contactos-clean2.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/contactos-clean2.jpg": {
+		"ft": 16384,
+		"iS": 38727,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/contactos-clean2.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"/img/edificio.jpeg": {
 		"ft": 16384,
 		"iS": 163170,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/edificio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/edificio.jpg": {
+		"ft": 16384,
+		"iS": 107210,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/edificio.jpg",
@@ -223,6 +342,17 @@
 		"oAP": "/img/gafas-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/gafas-1.jpg": {
+		"ft": 16384,
+		"iS": 48344,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gafas-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -234,12 +364,34 @@
 		"oAP": "/img/gafas-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/gafas-2.jpg": {
+		"ft": 16384,
+		"iS": 45969,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gafas-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"/img/gafas-3.jpeg": {
 		"ft": 16384,
 		"iS": 77733,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gafas-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/gafas-3.jpg": {
+		"ft": 16384,
+		"iS": 62851,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gafas-3.jpg",
@@ -377,6 +529,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/OPTICA MEDICA - Pag web.png": {
+		"ft": 32768,
+		"iS": 1106147,
+		"oA": 0,
+		"oAP": "/img/OPTICA MEDICA - Pag web.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/OPTICA MEDICA -imag pequeña.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/img/OPTICA MEDICA -imag pequeña.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/optica.png": {
 		"ft": 32768,
 		"iS": 51185,
@@ -437,12 +611,34 @@
 		"oAP": "/img/servicio-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/servicio-1.jpg": {
+		"ft": 16384,
+		"iS": 112098,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/servicio-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"/img/servicio-2.jpeg": {
 		"ft": 16384,
 		"iS": 156987,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/servicio-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/servicio-2.jpg": {
+		"ft": 16384,
+		"iS": 99448,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/servicio-2.jpg",
@@ -502,6 +698,38 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/js/nav-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/nav-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/nav.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/nav-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/scss/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/style-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/scss/style.css": {
 		"aP": 1,
@@ -1140,6 +1368,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
+			},
 		"guard-for-in": {
 			"active": 0,
 			"optionString": ""
@@ -1316,6 +1548,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -1341,6 +1577,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1644,6 +1884,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-setter-return": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -1847,6 +2091,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,
