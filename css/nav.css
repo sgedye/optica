@@ -40,13 +40,13 @@
 #nav-links > li:nth-child(4) { transition: all 250ms ease 150ms; }
 #nav-links > li:nth-child(5) { transition: all 250ms ease 100ms; }
 
-#nav-links a {
+/* #nav-links a {
   color: rgb(221, 131, 14);
   transition: 1.2s all;
 }
 #nav-links a:hover {
   color: var(--mainWhite);
-}
+} */
 
 /* NAVIGATION : Hamburger Menu only shown on Mobile Devices ≤ 992px */
 #hamburger {
@@ -104,6 +104,13 @@
     pointer-events: all;
   }
   #nav-links > li { opacity: 1;   pointer-events: all; }
-  #nav-links a { font-size: 20px; }
+  #nav-links a {  
+    color: var(--mainWhite);
+    font-size: 22px;
+    transition: all 500ms ease-in-out;
+  }
+  #nav-links a:hover {
+    transform: scale(1.2);
+  }
   #hamburger { display: none; }
 }
