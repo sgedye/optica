@@ -158,6 +158,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/cabezote/fondo.png": {
+		"ft": 32768,
+		"iS": 88511,
+		"oA": 0,
+		"oAP": "/img/cabezote/fondo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cabezote/logo.png": {
+		"ft": 32768,
+		"iS": 97170,
+		"oA": 0,
+		"oAP": "/img/cabezote/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cabezote/ojo.png": {
+		"ft": 32768,
+		"iS": 153847,
+		"oA": 0,
+		"oAP": "/img/cabezote/ojo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cabezote/pie.png": {
+		"ft": 32768,
+		"iS": 81790,
+		"oA": 0,
+		"oAP": "/img/cabezote/pie.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cabezote/texto.png": {
+		"ft": 32768,
+		"iS": 36454,
+		"oA": 0,
+		"oAP": "/img/cabezote/texto.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/cabezote1.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -717,6 +772,28 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/nav-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/products-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/products-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/products.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/products-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
