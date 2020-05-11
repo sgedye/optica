@@ -74,15 +74,84 @@ nav.sticky {
 }
 
 /* Banner */
-.dark-blue {
-  background-color: var(--mainDarkBlue);
+// .dark-blue {
+//   background-color: var(--mainDarkBlue);
+// }
+// #cabezote {
+//   margin: 0;
+//   padding: 78px 0 0 0;
+//   width: 100vw;
+//   height: auto;
+// }
+
+header {
+  position: relative;
+  height: calc(100vh - 78px);
+  margin-top: 78px;
+  background-image: url('./img/cabezote/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-#cabezote {
-  margin: 0;
-  padding: 78px 0 0 0;
+header > svg {
+  position: absolute;
+  bottom: 0;
+}
+.content {
+  display: grid;
+  grid-template-areas:
+    "logo"
+    "ojo"
+    "texto";
+  height: 80vh;
+  width: 80%;
+  align-items: center;
+  margin: 5vh auto 5vh auto;
+  background: transparent;
+}
+#cabezote-logo {
+  grid-area: logo;
+}
+#cabezote-ojo {
+  grid-area: ojo;
+  width: 200px;
+  margin: auto;
+}
+#cabezote-texto {
+  grid-area: texto;
+  margin: auto;
+}
+#cabezote-pie {
+  position: absolute;
+  height: 200px;
   width: 100vw;
-  height: auto;
+  bottom: 0;
+  z-index: 1;
 }
+@media screen and (min-width: 768px) {
+  #cabezote-ojo { width: 60% !important; }
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  .content {
+    grid-template-areas:
+      "ojo logo"
+      "texto .";
+  }
+  #cabezote-logo {
+    margin-left: -50%;
+    width: 150%;
+    z-index: 4;
+  }
+  #cabezote-ojo {
+    width: 60% !important;
+    margin: 0;
+  }
+  #cabezote-texto {
+    width: 60% !important;
+    margin: 0;
+  }
+}
+
 
 
 /*** NOSOTROS ***/

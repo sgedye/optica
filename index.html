@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/nav.css">
-  
 </head>
 
 <!---------- TODOS ------------>
@@ -51,12 +50,24 @@
   <!-- end of nav -->
 
   <!-- header -->
-  <header>
-    <div class="dark-blue">
+  <header style="background-image: url('./img/cabezote/fondo.png');">
+    <div class="content">
+      <img id="cabezote-logo" src="./img/cabezote/logo.png" alt="Logo de Optica Medica Buga" width="100%" />
+      <img id="cabezote-ojo" src="./img/cabezote/ojo.png" alt="Ojo de una mujer" width="100%" />
+      <img id="cabezote-texto" src="./img/cabezote/texto.png" alt="Más de 45 años al cuidado de la salud visual"
+        width="100%" />
+    </div>
+    <!-- <div class="cabezote-footer">
+      <img id="cabezote-pie" src="./img/cabezote/pie.png" width="100%" />
+    </div> -->
+
+
+
+    
+    <!-- <div class="dark-blue">
       <img id="cabezote" class="d-none d-sm-block" src="./img/cabezote.png" />
       <img id="cabezote" class="d-block d-sm-none" src="./img/cabezote-sml.png" style="max-height: 100vh;"/>
-      <!-- <img id="cabezote" src="./img/cabezote_first.jpg" /> -->
-    </div>
+    </div> -->
   </header>
   <!-- end of header -->
 
@@ -134,229 +145,7 @@
       <!-- end of filter buttons -->
       <!-- store items -->
       <div id="store-items" class="row store-items" >
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="lentes">
-          <div id="001" class="card">
-            <div class="img-container">
-              <img src="./img/gafas-rosadas.jpg" class="card-img-top store-img" alt="imagen de gafas rosadas" />
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Lentes Rosas</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="limpiadores">
-          <div id="002" class="card ">
-            <div class="img-container">
-              <img src="./img/solution-oxi.jpg" class="card-img-top store-img" alt="imagen de solución-oxi">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Multi Solución Oxi</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="lentes">
-          <div id="003" class="card ">
-            <div class="img-container">
-              <img src="./img/gafas-nino.jpeg" class="card-img-top store-img" alt="imagen de gafas para los niños">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Lentes para los niños</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="contactos">
-          <div id="004" class="card ">
-            <div class="img-container">
-              <img src="./img/contactos-avaira.jpeg" class="card-img-top store-img" alt="imagen de contactos avaira">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Contactos Avaira</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="limpiadores">
-          <div id="005" class="card ">
-            <div class="img-container">
-              <img src="./img/contactos-clean.jpeg" class="card-img-top store-img" alt="imagen de puremoist solución de contactos">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Solución de contactos</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="limpiadores">
-          <div id="006" class="card ">
-            <div class="img-container">
-              <img src="./img/reflect-free.jpg" class="card-img-top store-img" alt="imagen de reflect limpiador">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Reflect Free</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="lentes">
-          <div id="007" class="card ">
-            <div class="img-container">
-              <img src="./img/gafas-3.jpeg" class="card-img-top store-img" alt="imagen de varios lentes">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Selección de lentes</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->       
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="limpiadores">
-          <div id="008" class="card ">
-            <div class="img-container">
-              <img src="./img/contactos-clean2.jpeg" class="card-img-top store-img" alt="imagen de solución multipropósito">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Solución multipropósito</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="contactos">
-          <div id="009" class="card ">
-            <div class="img-container">
-              <img src="./img/contactos-biofinity.jpeg" class="card-img-top store-img" alt="imagen de contactos biofinity">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Contactos Biofinity</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="lentes">
-          <div id="010" class="card ">
-            <div class="img-container">
-              <img src="./img/gafas-evatik.jpeg" class="card-img-top store-img" alt="imagen de lentes Evatik">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Lentes Evatik</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="limpiadores">
-          <div id="011" class="card ">
-            <div class="img-container">
-              <img src="./img/humecsol.jpg" class="card-img-top store-img" alt="imagen de humecsol">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Humecsol Multiproposito</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="lentes">
-          <div id="012" class="card ">
-            <div class="img-container">
-              <img src="./img/gafas-2.jpeg" class="card-img-top store-img" alt="imagen de lentes">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Lentes</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="contactos">
-          <div id="013" class="card ">
-            <div class="img-container">
-              <img src="./img/contactos-air.jpeg" class="card-img-top store-img" alt="imagen de contactos air optix aqua">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Contactos Air Optix Aqua</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="limpiadores">
-          <div id="014" class="card ">
-            <div class="img-container">
-              <img src="./img/hydrosol.jpg" class="card-img-top store-img" alt="imagen de hydrosol">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Hydrosol Multiproposito</h5>
-              </div>  
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="lentes">
-          <div id="015" class="card ">
-            <div class="img-container">
-              <img src="./img/gafas-1.jpeg" class="card-img-top store-img" alt="imagen de mira flex lentes">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Mira Flex Lentes</h5>
-              </div>  
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
-        <!-- single item -->
-        <div class="col-6 col-sm-4 col-lg-3 mx-auto my-3 store-item" data-item="lentes">
-          <div id="016" class="card ">
-            <div class="img-container">
-              <img src="./img/gafas-optimun.png" class="card-img-top store-img" alt="imagen de lentes Optimun">
-            </div>
-            <div class="card-body d-none d-md-block">
-              <div class="card-text d-flex justify-content-between text-capitalize">
-                <h5 id="store-item-name">Lentes Optimun</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single item -->
+        <!-- projects.js hooks in here -->
       </div>
       <!-- end of store items -->
     </div>
@@ -526,6 +315,7 @@
   <!-- scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="js/products.js"></script>
   <script src="js/app.js"></script>
   <script src="js/nav.js"></script>
   <!-- end of scripts -->
