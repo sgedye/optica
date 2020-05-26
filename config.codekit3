@@ -202,6 +202,46 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/cabezote/pie2.png": {
+		"ft": 32768,
+		"iS": 81790,
+		"oA": 0,
+		"oAP": "/img/cabezote/pie2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cabezote/pie4.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/cabezote/pie4.ai",
+		"oF": 0
+		},
+	"/img/cabezote/pie4.png": {
+		"ft": 32768,
+		"iS": 74932,
+		"oA": 0,
+		"oAP": "/img/cabezote/pie4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cabezote/pie4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/cabezote/pie4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/cabezote/texto.png": {
 		"ft": 32768,
 		"iS": 36454,
@@ -212,6 +252,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/img/cabezote/Untitled-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/cabezote/Untitled-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/img/cabezote1.png": {
 		"ft": 32768,
