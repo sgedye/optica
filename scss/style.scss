@@ -2,6 +2,7 @@
 /* This file style.scss was written by Shaun Gedye */
 /***************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Vollkorn:ital,wght@0,500;0,700;1,600&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 
 :root {
@@ -21,7 +22,7 @@ html {
   box-sizing: border-box;
 }
 .nav-link, h1, h2, #copywrite > p {
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Vollkorn', 'Balsamiq Sans', "Kaushan Script", serif;
 }
 
 section > .container { padding-top: 100px; }
@@ -33,10 +34,12 @@ h1 {
   margin-bottom: 30px;
 }
 h2 { font-size: 1.5em; }
+
 @media (min-width: 600px) {
   h1 { font-size: 3em; }
   h2 { font-size: 2em; }
 }
+
 a {
   text-decoration: none;
   color: var(--mainDarkBlue);
@@ -73,17 +76,6 @@ nav.sticky {
   .navbar-brand { margin: auto; }
 }
 
-/* Banner */
-// .dark-blue {
-//   background-color: var(--mainDarkBlue);
-// }
-// #cabezote {
-//   margin: 0;
-//   padding: 78px 0 0 0;
-//   width: 100vw;
-//   height: auto;
-// }
-
 header {
   position: relative;
   height: calc(100vh - 78px);
@@ -93,10 +85,17 @@ header {
   background-size: cover;
   background-position: center;
 }
-header > svg {
+#svg-header {
   position: absolute;
   bottom: 0;
+  z-index: 3;
 }
+.cls-1 { fill: #a8cf45; }
+.cls-2 { fill: url(#linear-gradient); }
+.cls-3 { fill: url(#linear-gradient-2); }
+.cls-4 { fill: none; }
+.cls-5 { fill: url(#linear-gradient-3); }
+
 .content {
   display: grid;
   grid-template-areas:
@@ -106,7 +105,7 @@ header > svg {
   height: 80vh;
   width: 80%;
   align-items: center;
-  margin: 5vh auto 5vh auto;
+  margin: 0 auto;
   background: transparent;
 }
 #cabezote-logo {
@@ -115,11 +114,13 @@ header > svg {
 #cabezote-ojo {
   grid-area: ojo;
   width: 200px;
+  border-radius: 20px;
   margin: auto;
 }
 #cabezote-texto {
   grid-area: texto;
   margin: auto;
+  z-index: 5;
 }
 #cabezote-pie {
   position: absolute;
@@ -129,26 +130,33 @@ header > svg {
   z-index: 1;
 }
 @media screen and (min-width: 768px) {
+  #cabezote-logo { padding-top: 50px; }
   #cabezote-ojo { width: 60% !important; }
+  #cabezote-texto { width: 80%; }
 }
 @media screen and (min-width: 1024px) and (orientation: landscape) {
+  #svg-header {
+    left: -50px;
+  }
   .content {
+    height: 90vh;
     grid-template-areas:
       "ojo logo"
       "texto .";
   }
   #cabezote-logo {
     margin-left: -50%;
-    width: 150%;
+    width: 140%;
     z-index: 4;
   }
   #cabezote-ojo {
-    width: 60% !important;
-    margin: 0;
+    margin: 50px 0 0 0;
   }
   #cabezote-texto {
-    width: 60% !important;
     margin: 0;
+    // align-self: flex-end;
+    position: relative;
+    bottom: 0;
   }
 }
 
@@ -200,32 +208,6 @@ header > svg {
   transform: translate(2px, 2px);
 }
 
-/***** Not being used.
-@-webkit-keyframes rotateOutY {
-  from { -webkit-transform: rotateY(0deg); }
-  to { -webkit-transform: rotateY(90deg); }
-}
-@keyframes rotateOutY {
-  from { transform: rotateY(0deg) }
-  to { transform: rotateY(90deg) }
-}
-.rotateOutY {
-  -webkit-animation-name: rotateOutY;
-  animation-name: rotateOutY;  
-}
-@-webkit-keyframes rotateInY {
-  from { -webkit-transform: rotateY(90deg); }
-  to { -webkit-transform: rotateY(0deg); }
-}
-@keyframes rotateInY {
-  from { transform: rotateY(90deg) }
-  to { transform: rotateY(0deg) }
-}
-.rotateInY {
-  -webkit-animation-name: rotateInY;
-  animation-name: rotateInY;  
-}*/
-
 .show { display: block; }
 .hide { display: none; }
 
@@ -241,7 +223,6 @@ header > svg {
   transform: scale(1.1);
 }
 
-
 /*** NUESTRO SERVICIOS ***/
 .service-article {
   img {
@@ -249,9 +230,6 @@ header > svg {
     height: auto;
   }
   ul {
-    // display: flex;
-    // flex-direction: column;
-    // align-items: stretch;
     width: 100%;
     padding: 0;
     text-align: center;
