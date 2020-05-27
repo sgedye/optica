@@ -202,7 +202,7 @@
 		},
 	"/img/_imagenes no usados/cabezote_first.jpg": {
 		"ft": 16384,
-		"iS": 74167,
+		"iS": 62098,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/_imagenes no usados/cabezote_first.jpg",
@@ -279,7 +279,7 @@
 		},
 	"/img/_imagenes no usados/edificio.jpeg": {
 		"ft": 16384,
-		"iS": 163170,
+		"iS": 121120,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/_imagenes no usados/edificio.jpg",
@@ -397,7 +397,7 @@
 		},
 	"/img/_imagenes no usados/OPTICA MEDICA - Pag web.png": {
 		"ft": 32768,
-		"iS": 1106147,
+		"iS": 74983,
 		"oA": 0,
 		"oAP": "/img/_imagenes no usados/OPTICA MEDICA - Pag web.png",
 		"oF": 0,
@@ -406,11 +406,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/_imagenes no usados/OPTICA MEDICA -imag pequeña.png": {
+	"/img/_imagenes no usados/OPTICA MEDICA -imag pequeña.png": {
 		"ft": 32768,
 		"iS": 127427,
 		"oA": 0,
-		"oAP": "/img/_imagenes no usados/OPTICA MEDICA -imag pequeña.png",
+		"oAP": "/img/_imagenes no usados/OPTICA MEDICA -imag pequeña.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -430,7 +430,7 @@
 		},
 	"/img/_imagenes no usados/pie.jpg": {
 		"ft": 16384,
-		"iS": 17082,
+		"iS": 15250,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/_imagenes no usados/pie.jpg",
@@ -449,7 +449,7 @@
 		},
 	"/img/_imagenes no usados/servicio-1.jpeg": {
 		"ft": 16384,
-		"iS": 173839,
+		"iS": 134596,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/_imagenes no usados/servicio-1.jpg",
@@ -460,7 +460,7 @@
 		},
 	"/img/_imagenes no usados/servicio-2.jpeg": {
 		"ft": 16384,
-		"iS": 156987,
+		"iS": 121045,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/_imagenes no usados/servicio-2.jpg",
@@ -631,12 +631,12 @@
 		},
 	"/img/Optica-Icon.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 8106,
 		"oA": 0,
 		"oAP": "/img/Optica-Icon.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -683,7 +683,7 @@
 		},
 	"/img/store/contactos-air.jpeg": {
 		"ft": 16384,
-		"iS": 38710,
+		"iS": 43148,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/store/contactos-air.jpg",
@@ -694,7 +694,7 @@
 		},
 	"/img/store/contactos-avaira.jpeg": {
 		"ft": 16384,
-		"iS": 41784,
+		"iS": 51229,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/store/contactos-avaira.jpg",
@@ -705,7 +705,7 @@
 		},
 	"/img/store/contactos-biofinity.jpeg": {
 		"ft": 16384,
-		"iS": 29706,
+		"iS": 41860,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/store/contactos-biofinity.jpg",
@@ -714,16 +714,10 @@
 		"opt": 0,
 		"q": 100
 		},
-<<<<<<< Updated upstream
 	"/img/store/contactos-clean.jpeg": {
 		"ft": 16384,
-		"iS": 61692,
+		"iS": 68230,
 		"jF": 0,
-=======
-	"/img/OPTICA MEDICA -imag pequeña.png": {
-		"ft": 32768,
-		"iS": 127427,
->>>>>>> Stashed changes
 		"oA": 0,
 		"oAP": "/img/store/contactos-clean.jpg",
 		"oF": 0,
@@ -733,7 +727,7 @@
 		},
 	"/img/store/contactos-clean2.jpeg": {
 		"ft": 16384,
-		"iS": 29357,
+		"iS": 50723,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/store/contactos-clean2.jpg",
@@ -744,7 +738,7 @@
 		},
 	"/img/store/gafas-1.jpeg": {
 		"ft": 16384,
-		"iS": 34237,
+		"iS": 63997,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/store/gafas-1.jpg",
@@ -755,7 +749,7 @@
 		},
 	"/img/store/gafas-2.jpeg": {
 		"ft": 16384,
-		"iS": 76569,
+		"iS": 57539,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/store/gafas-2.jpg",
@@ -766,7 +760,7 @@
 		},
 	"/img/store/gafas-3.jpeg": {
 		"ft": 16384,
-		"iS": 77733,
+		"iS": 80117,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/store/gafas-3.jpg",
@@ -1502,7 +1496,7 @@
 			},
 		"camelcase": {
 			"active": 0,
-			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
 			},
 		"capitalized-comments": {
 			"active": 0,
@@ -1882,7 +1876,7 @@
 			},
 		"no-extra-parens": {
 			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1934,7 +1928,7 @@
 			},
 		"no-invalid-this": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'capIsConstructor': true}"
 			},
 		"no-irregular-whitespace": {
 			"active": 1,
@@ -2182,7 +2176,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -2206,7 +2200,7 @@
 			},
 		"no-unsafe-negation": {
 			"active": 1,
-			"optionString": ""
+			"optionString": "{'enforceForOrderingRelations': false}"
 			},
 		"no-unused-expressions": {
 			"active": 0,
@@ -2234,7 +2228,7 @@
 			},
 		"no-useless-computed-key": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'enforceForClassMembers': false}"
 			},
 		"no-useless-concat": {
 			"active": 0,
@@ -2478,7 +2472,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": ""
+			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,

@@ -48,7 +48,7 @@ storeData.forEach(item => {
       </div>
       <div class="card-body d-none d-md-block">
         <div class="card-text d-flex justify-content-between text-capitalize">
-          <h5 id="store-item-name">${item.title}</h5>
+          <h5>${item.title}</h5>
         </div>
       </div>
     </div>
