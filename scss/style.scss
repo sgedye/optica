@@ -24,6 +24,7 @@ html {
 .nav-link, h1, h2, #copywrite > p {
   font-family: 'Vollkorn', 'Balsamiq Sans', "Kaushan Script", serif;
 }
+#copywrite > p { font-family: serif; }
 
 section > .container { padding-top: 100px; }
 
@@ -34,6 +35,7 @@ h1 {
   margin-bottom: 30px;
 }
 h2 { font-size: 1.5em; }
+
 @media (min-width: 600px) {
   h1 { font-size: 3em; }
   h2 { font-size: 2em; }
@@ -157,7 +159,6 @@ header {
     bottom: 0;
   }
 }
-
 
 
 /*** NOSOTROS ***/

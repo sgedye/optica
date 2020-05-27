@@ -20,6 +20,9 @@ html {
 .nav-link, h1, h2, #copywrite > p {
   font-family: 'Vollkorn', 'Balsamiq Sans', "Kaushan Script", serif; }
 
+#copywrite > p {
+  font-family: serif; }
+
 section > .container {
   padding-top: 100px; }
 

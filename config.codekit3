@@ -156,50 +156,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/cabezote copy.png": {
-		"ft": 32768,
-		"iS": 57438,
-		"oA": 0,
-		"oAP": "/img/cabezote copy.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/cabezote-sml.png": {
-		"ft": 32768,
-		"iS": 97738,
-		"oA": 0,
-		"oAP": "/img/cabezote-sml.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/cabezote.jpg": {
-		"ft": 16384,
-		"iS": 62098,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/cabezote.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/cabezote.png": {
-		"ft": 32768,
-		"iS": 57438,
-		"oA": 0,
-		"oAP": "/img/cabezote.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/cabezote/fondo.png": {
 		"ft": 32768,
 		"iS": 88511,
@@ -243,14 +199,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"/img/cabezote/pie.png.orig": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/img/cabezote/pie.png.orig",
-		"oF": 0
 		},
 	"/img/cabezote/pie2.png": {
 		"ft": 32768,
@@ -312,39 +260,6 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
-		},
-	"/img/cabezote1.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "/img/cabezote1.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/cabezote_first.jpg": {
-		"ft": 16384,
-		"iS": 74167,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/cabezote_first.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/cabezote_old.jpg": {
-		"ft": 16384,
-		"iS": 51200,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/cabezote_old.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/img/contactanos.png": {
 		"ft": 32768,
@@ -632,12 +547,163 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/icoptica.ico": {
+	"/img/imagenes no usados/cabezote copy.png": {
+		"ft": 32768,
+		"iS": 57438,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/cabezote copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/imagenes no usados/cabezote-sml.png": {
+		"ft": 32768,
+		"iS": 97738,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/cabezote-sml.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/imagenes no usados/cabezote.jpg": {
+		"ft": 16384,
+		"iS": 62098,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/cabezote.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/imagenes no usados/cabezote.png": {
+		"ft": 32768,
+		"iS": 57438,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/cabezote.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/imagenes no usados/cabezote1.png": {
+		"ft": 32768,
+		"iS": 50660,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/cabezote1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/imagenes no usados/cabezote_first.jpg": {
+		"ft": 16384,
+		"iS": 74167,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/cabezote_first.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/imagenes no usados/cabezote_old.jpg": {
+		"ft": 16384,
+		"iS": 51200,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/cabezote_old.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/imagenes no usados/icoptica.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/img/icoptica.ico",
+		"oAP": "/img/imagenes no usados/icoptica.ico",
+		"oF": 0
+		},
+	"/img/imagenes no usados/New icon.png": {
+		"ft": 32768,
+		"iS": 18134,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/New icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/imagenes no usados/new_menu.png": {
+		"ft": 32768,
+		"iS": 51545,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/new_menu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/imagenes no usados/OPTICA MEDICA - Pag web.png": {
+		"ft": 32768,
+		"iS": 1106147,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/OPTICA MEDICA - Pag web.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/imagenes no usados/OPTICA MEDICA -imag pequeña.png": {
+		"ft": 32768,
+		"iS": 127427,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/OPTICA MEDICA -imag pequeña.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/imagenes no usados/optica.png": {
+		"ft": 32768,
+		"iS": 51185,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/optica.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/imagenes no usados/pie.jpg": {
+		"ft": 16384,
+		"iS": 17082,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/pie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/imagenes no usados/pie.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/imagenes no usados/pie.psd",
 		"oF": 0
 		},
 	"/img/lentes-luz-azul.jpeg": {
@@ -684,49 +750,35 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/OPTICA MEDICA - Pag web.png": {
+	"/img/mobile-menu.png": {
 		"ft": 32768,
-		"iS": 1106147,
+		"iS": 32661,
 		"oA": 0,
-		"oAP": "/img/OPTICA MEDICA - Pag web.png",
+		"oAP": "/img/mobile-menu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Optica-Icon.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/img/Optica-Icon.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/img/OPTICA MEDICA -imag pequeña.png": {
-		"ft": 32768,
-		"iS": 127427,
+	"/img/optica.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/img/OPTICA MEDICA -imag pequeña.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/optica.png": {
-		"ft": 32768,
-		"iS": 51185,
-		"oA": 0,
-		"oAP": "/img/optica.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/pie.jpg": {
-		"ft": 16384,
-		"iS": 17082,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/pie.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"oAP": "/img/optica.ico",
+		"oF": 0
 		},
 	"/img/pie.png": {
 		"ft": 32768,
@@ -738,14 +790,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"/img/pie.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/img/pie.psd",
-		"oF": 0
 		},
 	"/img/reflect-free.jpg": {
 		"ft": 16384,
