@@ -281,7 +281,7 @@ header {
   color: var(--mainDarkBlue);
   border-radius: 10px 0 10px 0;
   padding: 0.8rem 0; }
-  .contact_form #title, .contact_form #name, .contact_form #myName, .contact_form #email, .contact_form #myEmail, .contact_form #message, .contact_form #myMessage, .contact_form #submit {
+  .contact_form #title, .contact_form #name, .contact_form #email, .contact_form #message, .contact_form #submit, .contact_form label {
     display: block;
     width: 90%;
     margin: auto;
@@ -314,7 +314,7 @@ header {
     display: block !important; }
   .contact_form {
     margin: auto; }
-    .contact_form #name, .contact_form #myName, .contact_form #email, .contact_form #myEmail, .contact_form #message, .contact_form #myMessage {
+    .contact_form #name, .contact_form #email, .contact_form #message, .contact_form label {
       display: inline-block;
       grid-column: span 1; }
     .contact_form #name, .contact_form #email {

@@ -292,7 +292,7 @@ header {
   color: var(--mainDarkBlue);
   border-radius: 10px 0 10px 0;
   padding: 0.8rem 0;
-  #title, #name, #myName, #email, #myEmail, #message, #myMessage, #submit {
+  #title, #name, #email, #message, #submit, label {
     display: block;
     width: 90%;
     margin: auto;
@@ -331,7 +331,7 @@ header {
   }
   .contact_form {
     margin: auto;
-    #name, #myName, #email, #myEmail, #message, #myMessage {
+    #name, #email, #message, label {
       display: inline-block;
       grid-column: span 1;
     }
